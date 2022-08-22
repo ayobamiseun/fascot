@@ -333,7 +333,7 @@ include('connect.php');
           </div>
           <div class="col-lg-3 col-md-4 mt-4">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
-              <img height="71px" src="assets/img/png-transparent-paypal-logo-text-line-blue.png" alt="">
+              <img height="70px" src="assets/img/png-transparent-paypal-logo-text-line-blue.png" alt="">
            
               <!-- <i class="ri-gradienter-line" style="color: #ffa76e;"></i> -->
               <?php
