@@ -1,6 +1,6 @@
 <?php
 
-include('connect.php');
+include('./include/connect.php');
 
    
 ?>
@@ -103,27 +103,6 @@ include('connect.php');
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="about.html">About</a></li>
-          <!-- <li><a class="nav-link scrollto" href="#features">Contact</a></li>
-          <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
-          <li><a class="nav-link scrollto" href="#team">Team</a></li>
-          <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li> -->
-          <!--<li class="dropdown"><a href="#"><span>Trade</span> <i class="bi bi-chevron-down"></i></a>-->
-          <!--  <ul>-->
-              <!--<li><a href="#">Drop Down 1</a></li>-->
-              <!--<li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>-->
-              <!--  <ul>-->
-              <!--    <li><a href="#">Deep Drop Down 1</a></li>-->
-              <!--    <li><a href="#">Deep Drop Down 2</a></li>-->
-              <!--    <li><a href="#">Deep Drop Down 3</a></li>-->
-              <!--    <li><a href="#">Deep Drop Down 4</a></li>-->
-              <!--    <li><a href="#">Deep Drop Down 5</a></li>-->
-              <!--  </ul>-->
-              <!--</li>-->
-              <!--<li><a href="#">Contact</a></li>-->
-              <!--<li><a href="#">Drop Down 3</a></li>-->
-              <!--<li><a href="#">Drop Down 4</a></li>-->
-          <!--  </ul>-->
-          <!--</li>-->
           <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -142,7 +121,7 @@ include('connect.php');
             <h1>Welcome to  Fascot Exchange</h1>
             <h2>We Buy and Sell All kind Of crypto And GiftCards</h2>
             <div class="text-center text-lg-start">
-              <a href="https://wa.me/2349093677318" class="btn-get-started scrollto">Get Started</a>
+              <a href="https://wa.me/2349093677318"><button class="button-91" role="button">Get Started</button></a>
             </div>
           </div>
         </div>
