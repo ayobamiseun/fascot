@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: Aeonik;
   src: url(../Aeonik/AeonikTRIAL-Regular.otf);
@@ -31,15 +32,16 @@
   src: url(../Aeonik/AeonikTRIAL-BoldItalic.otf);
   /* font-weight: lighter; */
 }
-
+/*--------------------------------------------------------------
+# General
 --------------------------------------------------------------*/
 body {
-  font-family: "Aeonik", sans-serif;
+  font-family: font-family: "Aeonik", sans-serif;
   color: #444444;
 }
 
 a {
-  color: #1acc8d;
+  color: cornflowerblue;
   text-decoration: none;
 }
 
@@ -49,7 +51,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Aeonik", sans-serif;
+ font-family: "Aeonik", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -71,7 +73,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #1acc8d;
+  border: 6px solid cornflowerblue;
   border-top-color: #d2f9eb;
   border-radius: 50%;
   width: 60px;
@@ -103,11 +105,12 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top {
   position: fixed;
   visibility: hidden;
+  
   opacity: 0;
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #1acc8d;
+  background: cornflowerblue;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -212,7 +215,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: 3px;
   left: 30px;
-  background-color: #1acc8d;
+  background-color: cornflowerblue;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -253,7 +256,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #1acc8d;
+  color: cornflowerblue;
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -365,7 +368,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #1acc8d;
+  color:cornflowerblue;
 }
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
@@ -398,7 +401,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero h1 span {
   color: #fff;
-  border-bottom: 4px solid #1acc8d;
+  border-bottom: 4px solid cornflowerblue;
 }
 #hero h2 {
   color: rgba(255, 255, 255, 0.8);
@@ -415,7 +418,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   transition: 0.5s;
   color: #fff;
-  background: #1acc8d;
+  background: cornflowerblue;
 }
 #hero .btn-get-started:hover {
   background: #17b57d;
@@ -586,7 +589,7 @@ section {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #1acc8d;
+  background: cornflowerblue;
   margin: 4px 10px;
 }
 .section-title p {
@@ -679,12 +682,12 @@ section {
   transition: 0.5s;
 }
 .about .icon-box .icon i {
-  color: #1acc8d;
+  color: cornflowerblue;
   font-size: 32px;
 }
 .about .icon-box:hover .icon {
-  background: #1acc8d;
-  border-color: #1acc8d;
+  background: cornflowerblue;
+  border-color: cornflowerblue;
 }
 .about .icon-box:hover .icon i {
   color: #fff;
@@ -700,7 +703,7 @@ section {
   transition: 0.3s;
 }
 .about .icon-box .title a:hover {
-  color: #1acc8d;
+  color: cornflowerblue;
 }
 .about .icon-box .description {
   margin-left: 85px;
@@ -859,7 +862,7 @@ section {
   left: 50%;
   transform: translateX(-50%);
   font-size: 20px;
-  background: #1acc8d;
+  background: cornflowerblue;
   padding: 12px;
   color: #fff;
   border-radius: 50px;
@@ -904,7 +907,7 @@ section {
 .details .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #1acc8d;
+  color: cornflowerblue;
 }
 .details .content p:last-child {
   margin-bottom: 0;
@@ -1002,7 +1005,7 @@ section {
   background-color: rgba(255, 255, 255, 0.4);
 }
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #1acc8d;
+  background-color: cornflowerblue;
 }
 @media (min-width: 1024px) {
   .testimonials {
@@ -1078,7 +1081,7 @@ section {
   color: #01036f;
 }
 .team .member .social a:hover {
-  color: #1acc8d;
+  color: cornflowerblue;
 }
 .team .member .social i {
   font-size: 16px;
@@ -1108,7 +1111,7 @@ section {
 }
 .pricing h4 {
   font-size: 36px;
-  color: #1acc8d;
+  color: cornflowerblue;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   margin-bottom: 20px;
@@ -1135,7 +1138,7 @@ section {
   padding-bottom: 16px;
 }
 .pricing ul i {
-  color: #1acc8d;
+  color: cornflowerblue;
   font-size: 18px;
   padding-right: 4px;
 }
@@ -1150,7 +1153,7 @@ section {
   text-align: center;
 }
 .pricing .btn-buy {
-  background: #1acc8d;
+  background: cornflowerblue;
   display: inline-block;
   padding: 8px 35px 10px 35px;
   border-radius: 50px;
@@ -1167,7 +1170,7 @@ section {
 }
 .pricing .featured h3 {
   color: #fff;
-  background: #1acc8d;
+  background: cornflowerblue;
 }
 .pricing .advanced {
   width: 200px;
@@ -1178,7 +1181,7 @@ section {
   z-index: 1;
   font-size: 14px;
   padding: 1px 0 3px 0;
-  background: #1acc8d;
+  background: cornflowerblue;
   color: #fff;
 }
 
@@ -1236,7 +1239,7 @@ section {
   color: #343a40;
 }
 .faq .faq-list a.collapsed:hover {
-  color: #1acc8d;
+  color: cornflowerblue;
 }
 .faq .faq-list a.collapsed .icon-show {
   display: inline-block;
@@ -1287,7 +1290,7 @@ section {
   margin-top: 40px;
 }
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #1acc8d;
+  background: cornflowerblue;
   color: #fff;
 }
 .contact .php-email-form {
@@ -1346,7 +1349,7 @@ section {
   padding: 10px 12px;
 }
 .contact .php-email-form button[type=submit] {
-  background: #1acc8d;
+  background:cornflowerblue;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1389,7 +1392,7 @@ section {
   margin-bottom: 15px;
   background: #010246;
   color: #fff;
-  border-top: 4px solid #1acc8d;
+  border-top: 4px solid cornflowerblue;
   text-align: center;
   padding: 30px 20px;
 }
@@ -1420,7 +1423,7 @@ section {
   transition: 0.3s;
 }
 #footer .footer-top .social-links a:hover {
-  background: #1acc8d;
+  background: cornflowerblue;
   color: #fff;
   text-decoration: none;
 }
@@ -1483,7 +1486,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #1acc8d;
+  background: cornflowerblue;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
@@ -1506,26 +1509,4 @@ section {
   #footer .footer-top .footer-info {
     margin: -20px 0 30px 0;
   }
-}
-
-
-
-/* CSS */
-.button-91 {
-  color: #fff;
-  padding: 15px 25px;
-  background-color: #38D2D2;
-  background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 66% at 26% 20%, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
-  box-shadow: inset -3px -3px 9px rgba(255, 255, 255, 0.25), inset 0px 3px 9px rgba(255, 255, 255, 0.3), inset 0px 1px 1px rgba(255, 255, 255, 0.6), inset 0px -8px 36px rgba(0, 0, 0, 0.3), inset 0px 1px 5px rgba(255, 255, 255, 0.6), 2px 19px 31px rgba(0, 0, 0, 0.2);
-  border-radius: 14px;
-  font-weight: bold;
-  font-size: 16px;
-
-  border: 0;
-
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-
-  cursor: pointer;
 }

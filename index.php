@@ -121,7 +121,7 @@ include('./include/connect.php');
             <h1>Welcome to  Fascot Exchange</h1>
             <h2>We Buy and Sell All kind Of crypto And GiftCards</h2>
             <div class="text-center text-lg-start">
-              <a href="https://wa.me/2349093677318"><button class="button-91" role="button">Get Started</button></a>
+              <a href="https://wa.me/2349093677318" class="btn-get-started scrollto">Get Started</a>
             </div>
           </div>
         </div>
